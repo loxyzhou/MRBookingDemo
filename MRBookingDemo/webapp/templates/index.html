@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Meeting Room Booking - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/static/css/site.css">
-    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/static/datetimepicker/bootstrap-datetimepicker.min.css">
-    <script src="/static/js/jquery-3.5.1.js"></script>
-    <script src="/static/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/site.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'datetimepicker/bootstrap-datetimepicker.min.css' %}">
+    <script src="{% static 'js/jquery-3.5.1.js' %}"></script>
+    <script src="{% static 'datetimepicker/bootstrap-datetimepicker.min.js' %}"></script>
 </head>
 <body>
 {% include 'nav.html' %}

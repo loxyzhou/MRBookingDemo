@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Meeting Room Booking - My booking</title>
-    <link rel="stylesheet" href="/static/css/site.css">
-    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
-    <script src="/static/js/jquery-3.5.1.js"></script>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/site.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <script src="{% static 'js/jquery-3.5.1.js' %}"></script>
 </head>
 <body>
 {% include 'nav.html' %}
